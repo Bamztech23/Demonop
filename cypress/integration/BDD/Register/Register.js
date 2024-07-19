@@ -23,35 +23,4 @@ When ('i enter valid firstname', function(){
 When ('i enter valid lastname', function(){
     cy.get('#LastName').type('Lawal')
 })
-Then ('i select day for my date of birth',function(){
-    cy.get('.inputs.date-of-birth').select()
-    cy.get(select[name='DateOfBirthDay']).select('22')
-    .should('have.value','22')
-})
-Then ('i select month for my date of birth', function(){
 
-})
-Then ('i select year for my date of birth', function(){
-
-})
-When ('i enter valid email', function(){
-
-})
-When ('i enter company name',function(){
-
-})
-Then ('i check the Newsletter button',function(){
-
-})
-When ('i enter a valid password',function(){
-
-})
-Then ('i confirmed my valid password', function(){
-
-})
-Then ('i click on Register',function(){
-
-})
-When ('i validate successful login to my account', function(){
-
-})

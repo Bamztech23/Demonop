@@ -5,5 +5,6 @@ import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 
 Given ('i open flyairpeace website', function(){
-    cy.visit('https://www.flyairpeace.com/');  
+    cy.visit('https://www.flyairpeace.com/');
+      
 }) 

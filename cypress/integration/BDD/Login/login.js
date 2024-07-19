@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />​
+/// <reference types="cypress" />​
 /// <reference types="cypress-iframe" />​
 import 'cypress-iframe';
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
@@ -17,7 +17,4 @@ When ('i enter a valid password',function(){
 })
 Then ('i click login',function(){
     cy.get('.button-1.login-button').click();
-})
-When ('i validate successful login to my account',function(){
-    cy.get('')
 })
