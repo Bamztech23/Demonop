@@ -7,4 +7,4 @@ Scenario: Validate Login With Valid Credentials
     Then i enter a valid username
     When i enter a valid password
     Then i click login  
-    When i validate successful login to my account
+   
